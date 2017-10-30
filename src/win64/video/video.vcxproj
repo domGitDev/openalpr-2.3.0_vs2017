@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F1206EAE-8830-39F4-9F72-73FE5D8D5371}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>video</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\openalpr-2.3.0\src\win64\video\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">video.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">video</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\openalpr-2.3.0\src\win64\video\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">video.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">video</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\openalpr-2.3.0\src\win64\video\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">video.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">video</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\openalpr-2.3.0\src\win64\video\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">video.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">video</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;OPENALPR_MAJOR_VERSION=2;OPENALPR_MINOR_VERSION=3;OPENALPR_PATCH_VERSION=0;INSTALL_PREFIX="C:/Program Files/src";OPENCV_MAJOR_VERSION=3;WINDOWS;NOMINMAX;SKIP_STATE_DETECTION=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;OPENALPR_MAJOR_VERSION=2;OPENALPR_MINOR_VERSION=3;OPENALPR_PATCH_VERSION=0;INSTALL_PREFIX=\"C:/Program Files/src\";OPENCV_MAJOR_VERSION=3;WINDOWS;NOMINMAX;SKIP_STATE_DETECTION=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENALPR_MAJOR_VERSION=2;OPENALPR_MINOR_VERSION=3;OPENALPR_PATCH_VERSION=0;INSTALL_PREFIX="C:/Program Files/src";OPENCV_MAJOR_VERSION=3;WINDOWS;NOMINMAX;SKIP_STATE_DETECTION=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENALPR_MAJOR_VERSION=2;OPENALPR_MINOR_VERSION=3;OPENALPR_PATCH_VERSION=0;INSTALL_PREFIX=\"C:/Program Files/src\";OPENCV_MAJOR_VERSION=3;WINDOWS;NOMINMAX;SKIP_STATE_DETECTION=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENALPR_MAJOR_VERSION=2;OPENALPR_MINOR_VERSION=3;OPENALPR_PATCH_VERSION=0;INSTALL_PREFIX="C:/Program Files/src";OPENCV_MAJOR_VERSION=3;WINDOWS;NOMINMAX;SKIP_STATE_DETECTION=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENALPR_MAJOR_VERSION=2;OPENALPR_MINOR_VERSION=3;OPENALPR_PATCH_VERSION=0;INSTALL_PREFIX=\"C:/Program Files/src\";OPENCV_MAJOR_VERSION=3;WINDOWS;NOMINMAX;SKIP_STATE_DETECTION=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENALPR_MAJOR_VERSION=2;OPENALPR_MINOR_VERSION=3;OPENALPR_PATCH_VERSION=0;INSTALL_PREFIX="C:/Program Files/src";OPENCV_MAJOR_VERSION=3;WINDOWS;NOMINMAX;SKIP_STATE_DETECTION=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENALPR_MAJOR_VERSION=2;OPENALPR_MINOR_VERSION=3;OPENALPR_PATCH_VERSION=0;INSTALL_PREFIX=\"C:/Program Files/src\";OPENCV_MAJOR_VERSION=3;WINDOWS;NOMINMAX;SKIP_STATE_DETECTION=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\openalpr-2.3.0\src\video\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/openalpr-2.3.0/src/video/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/openalpr-2.3.0/src -BD:/openalpr-2.3.0/src/win64 --check-stamp-file D:/openalpr-2.3.0/src/win64/video/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/openalpr-2.3.0/src/video/CMakeLists.txt;D:\openalpr-2.3.0\src\video\CMakeLists.txt;D:\openalpr-2.3.0\src\video\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\openalpr-2.3.0\src\win64\video\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/openalpr-2.3.0/src/video/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/openalpr-2.3.0/src -BD:/openalpr-2.3.0/src/win64 --check-stamp-file D:/openalpr-2.3.0/src/win64/video/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/openalpr-2.3.0/src/video/CMakeLists.txt;D:\openalpr-2.3.0\src\video\CMakeLists.txt;D:\openalpr-2.3.0\src\video\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\openalpr-2.3.0\src\win64\video\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/openalpr-2.3.0/src/video/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/openalpr-2.3.0/src -BD:/openalpr-2.3.0/src/win64 --check-stamp-file D:/openalpr-2.3.0/src/win64/video/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/openalpr-2.3.0/src/video/CMakeLists.txt;D:\openalpr-2.3.0\src\video\CMakeLists.txt;D:\openalpr-2.3.0\src\video\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\openalpr-2.3.0\src\win64\video\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/openalpr-2.3.0/src/video/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/openalpr-2.3.0/src -BD:/openalpr-2.3.0/src/win64 --check-stamp-file D:/openalpr-2.3.0/src/win64/video/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/openalpr-2.3.0/src/video/CMakeLists.txt;D:\openalpr-2.3.0\src\video\CMakeLists.txt;D:\openalpr-2.3.0\src\video\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\openalpr-2.3.0\src\win64\video\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\openalpr-2.3.0\src\video\videobuffer.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\ZERO_CHECK.vcxproj">
+      <Project>{38AB9DDD-5B7B-3AC9-B475-8A9C162C5F63}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\openalpr\support\support.vcxproj">
+      <Project>{74DCDA3C-8173-3052-A9E1-1AD92938E795}</Project>
+      <Name>support</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

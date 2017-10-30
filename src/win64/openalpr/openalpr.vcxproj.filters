@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\alpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\alpr_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\config_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\detection\detector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\detection\detectorcpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\detection\detectorcuda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\detection\detectorocl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\detection\detectorfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\detection\detectormorph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\detection\detectormask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\licenseplatecandidate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\ocr\tesseract_ocr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\ocr\ocr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\ocr\ocrfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\postprocess\postprocess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\postprocess\regexrule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\binarize_wolf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\ocr\segmentation\charactersegmenter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\ocr\segmentation\histogram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\ocr\segmentation\histogramvertical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\ocr\segmentation\histogramhorizontal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\edges\edgefinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\edges\platecorners.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\edges\platelines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\edges\textlinecollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\edges\scorekeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\colorfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\prewarp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\transformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\textdetection\characteranalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\textdetection\platemask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\textdetection\textcontours.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\textdetection\textline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\textdetection\linefinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\pipeline_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\cjson.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\motiondetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\openalpr-2.3.0\src\openalpr\result_aggregator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\openalpr-2.3.0\src\openalpr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{98DFB327-DB45-37C7-A71D-B77AAFEA126F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

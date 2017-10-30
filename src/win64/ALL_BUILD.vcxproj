@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{EB743D06-CA96-3694-8EFA-595D2F251A60}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PLATE_RECOGNIZE\opensource\tesseract-orc\win64\include;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccstruct;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccmain;D:\PLATE_RECOGNIZE\opensource\tesseract-orc\ccutil;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\include\opencv;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\core\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\flann\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgproc\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ml\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\objdetect\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\photo\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\video\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\dnn\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\imgcodecs\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\shape\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videoio\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\highgui\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\superres\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\ts\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\features2d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\calib3d\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\stitching\include;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\modules\videostab\include;D:\openalpr-2.3.0\src\.\openalpr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\openalpr-2.3.0\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/openalpr-2.3.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/openalpr-2.3.0/src -BD:/openalpr-2.3.0/src/win64 --check-stamp-file D:/openalpr-2.3.0/src/win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/openalpr-2.3.0/src/CMakeLists.txt;D:\openalpr-2.3.0\src\CMakeLists.txt;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeCCompiler.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;D:\openalpr-2.3.0\src\cmake_modules\FindTesseract.cmake;D:\openalpr-2.3.0\src\cmake_modules\LibFindMacros.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVConfig-version.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVModules.cmake;D:\openalpr-2.3.0\config\openalpr.conf.user;D:\openalpr-2.3.0\config\openalpr.conf.defaults;C:\Program Files\CMake\share\cmake-3.8\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.8\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.8\Templates\CPackConfig.cmake.in;D:\openalpr-2.3.0\src\cmake_modules\templates\cmake_uninstall.cmake.in;D:\openalpr-2.3.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\openalpr-2.3.0\src\win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/openalpr-2.3.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/openalpr-2.3.0/src -BD:/openalpr-2.3.0/src/win64 --check-stamp-file D:/openalpr-2.3.0/src/win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/openalpr-2.3.0/src/CMakeLists.txt;D:\openalpr-2.3.0\src\CMakeLists.txt;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeCCompiler.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;D:\openalpr-2.3.0\src\cmake_modules\FindTesseract.cmake;D:\openalpr-2.3.0\src\cmake_modules\LibFindMacros.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVConfig-version.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVModules.cmake;D:\openalpr-2.3.0\config\openalpr.conf.user;D:\openalpr-2.3.0\config\openalpr.conf.defaults;C:\Program Files\CMake\share\cmake-3.8\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.8\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.8\Templates\CPackConfig.cmake.in;D:\openalpr-2.3.0\src\cmake_modules\templates\cmake_uninstall.cmake.in;D:\openalpr-2.3.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\openalpr-2.3.0\src\win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/openalpr-2.3.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/openalpr-2.3.0/src -BD:/openalpr-2.3.0/src/win64 --check-stamp-file D:/openalpr-2.3.0/src/win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/openalpr-2.3.0/src/CMakeLists.txt;D:\openalpr-2.3.0\src\CMakeLists.txt;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeCCompiler.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;D:\openalpr-2.3.0\src\cmake_modules\FindTesseract.cmake;D:\openalpr-2.3.0\src\cmake_modules\LibFindMacros.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVConfig-version.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVModules.cmake;D:\openalpr-2.3.0\config\openalpr.conf.user;D:\openalpr-2.3.0\config\openalpr.conf.defaults;C:\Program Files\CMake\share\cmake-3.8\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.8\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.8\Templates\CPackConfig.cmake.in;D:\openalpr-2.3.0\src\cmake_modules\templates\cmake_uninstall.cmake.in;D:\openalpr-2.3.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\openalpr-2.3.0\src\win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/openalpr-2.3.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/openalpr-2.3.0/src -BD:/openalpr-2.3.0/src/win64 --check-stamp-file D:/openalpr-2.3.0/src/win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/openalpr-2.3.0/src/CMakeLists.txt;D:\openalpr-2.3.0\src\CMakeLists.txt;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeCCompiler.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\openalpr-2.3.0\src\win64\CMakeFiles\3.8.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;D:\openalpr-2.3.0\src\cmake_modules\FindTesseract.cmake;D:\openalpr-2.3.0\src\cmake_modules\LibFindMacros.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVConfig-version.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;D:\PLATE_RECOGNIZE\opensource\opencv-3.3.0\opencv\sources\win64\OpenCVModules.cmake;D:\openalpr-2.3.0\config\openalpr.conf.user;D:\openalpr-2.3.0\config\openalpr.conf.defaults;C:\Program Files\CMake\share\cmake-3.8\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.8\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.8\Templates\CPackConfig.cmake.in;D:\openalpr-2.3.0\src\cmake_modules\templates\cmake_uninstall.cmake.in;D:\openalpr-2.3.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\openalpr-2.3.0\src\win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\ZERO_CHECK.vcxproj">
+      <Project>{38AB9DDD-5B7B-3AC9-B475-8A9C162C5F63}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\alpr.vcxproj">
+      <Project>{42A1B3C0-5B01-340A-A1AE-72A8C6699328}</Project>
+      <Name>alpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\openalpr\openalpr.vcxproj">
+      <Project>{39BA8366-2EB8-3D80-82CD-E53B70DE187D}</Project>
+      <Name>openalpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\openalpr\openalpr-static.vcxproj">
+      <Project>{D404B394-230A-3FD1-9E96-E9B05ECAB34B}</Project>
+      <Name>openalpr-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\misc_utilities\openalpr-utils-binarizefontsheet.vcxproj">
+      <Project>{5A2BD78F-AB30-3FCB-834C-32522818E21A}</Project>
+      <Name>openalpr-utils-binarizefontsheet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\misc_utilities\openalpr-utils-calibrate.vcxproj">
+      <Project>{F0FD0CAE-5E87-315B-9B1C-B6B642E16116}</Project>
+      <Name>openalpr-utils-calibrate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\misc_utilities\openalpr-utils-classifychars.vcxproj">
+      <Project>{3B0403D9-33E4-32E3-9439-1DB1977CECE7}</Project>
+      <Name>openalpr-utils-classifychars</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\misc_utilities\openalpr-utils-prepcharsfortraining.vcxproj">
+      <Project>{1FF6CB89-4F0C-33EC-A70D-7BCA07475BC4}</Project>
+      <Name>openalpr-utils-prepcharsfortraining</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\misc_utilities\openalpr-utils-sortstate.vcxproj">
+      <Project>{9429E54F-76B3-3B19-90F6-BB18E31CFA7F}</Project>
+      <Name>openalpr-utils-sortstate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\misc_utilities\openalpr-utils-tagplates.vcxproj">
+      <Project>{1121C89B-403E-374D-BE82-B58BE6C53613}</Project>
+      <Name>openalpr-utils-tagplates</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\bindings\go\openalprgo.vcxproj">
+      <Project>{E2C38D93-6DE6-3833-803C-D6F265FDC98C}</Project>
+      <Name>openalprgo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\bindings\java\openalprjni.vcxproj">
+      <Project>{3514028D-9360-33E8-8AE3-F420422DCB74}</Project>
+      <Name>openalprjni</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\bindings\python\openalprpy.vcxproj">
+      <Project>{69C229AD-6E47-3150-AFF6-CC6673B6A930}</Project>
+      <Name>openalprpy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\openalpr\simpleini\simpleini.vcxproj">
+      <Project>{C0FDF49B-C982-376D-AD53-C83E79F5338D}</Project>
+      <Name>simpleini</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\openalpr\support\support.vcxproj">
+      <Project>{74DCDA3C-8173-3052-A9E1-1AD92938E795}</Project>
+      <Name>support</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\openalpr-2.3.0\src\win64\video\video.vcxproj">
+      <Project>{F1206EAE-8830-39F4-9F72-73FE5D8D5371}</Project>
+      <Name>video</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
